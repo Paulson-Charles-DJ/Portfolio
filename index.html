@@ -5,78 +5,135 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Charles</title>
     <!-- CSS plugins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
     <!-- Navbar -->
     <header>
-        <!-- <nav class="navbar navbar-expand-lg bg-dark sticky-top bg-body-tertiary"> -->
+      <div class="container-fluid p-0">
         <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body" data-bs-theme="dark">
-            <div class="container-fluid ">
-              <a class="navbar-brand ms-3 text-light" href="#">Paulson Charles</a>
-              <button class="navbar-toggler " type="button" data-bs-theme="dark" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="offcanvas offcanvas-end bg-dark" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                <div class="offcanvas-header" data-bs-theme="dark">
-                  <h5 class="offcanvas-title text-light" id="offcanvasNavbarLabel">Paulson Charles</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body">
-                  <ul class="navbar-nav nav-underline justify-content-end flex-grow-1 pe-3">
-                    <li class="nav-item">
-                      <a class="nav-link active mx-lg-2 text-light" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link mx-lg-2 text-light" href="#">About</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link mx-lg-2 text-light" href="#">Skills</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link mx-lg-2 text-light" href="#">Contact</a>
-                    </li>
-                  </ul>
-                </div>
+          <div class="container-fluid ">
+            <a class="navbar-brand ps-3 text-light nav-text" href="#">Paulson Charles</a>
+            <button class="navbar-toggler " type="button" data-bs-theme="dark" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end bg-dark" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+              <div class="offcanvas-header" data-bs-theme="dark">
+                <h5 class="offcanvas-title text-light nav-text" id="offcanvasNavbarLabel">Paulson Charles</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav nav-underline justify-content-end flex-grow-1 pe-3 ">
+                  <li class="nav-item">
+                    <a class="nav-link active mx-lg-4 text-light nav-text" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link mx-lg-4 text-light nav-text" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link mx-lg-4 text-light nav-text" href="#">Skills</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link mx-lg-4 text-light nav-text" href="#">Contact</a>
+                  </li>
+                </ul>
               </div>
             </div>
-        </nav>       
-    </header>
-    <!-- 1st Page -->
-    <div class="row g-0 bg-body-secondary position-relative">
-      <div class="col-md-6 mb-md-0 p-md-4">
-        <img src="./assets/images/undraw_Online_test_re_kyfx.png" class="w-100" alt="...">
+          </div>
+      </nav>  
       </div>
-      <div class="col-md-6 p-4 ps-md-0">
-        <h5 class="mt-0">I'm Paulson Charles</h5>
-        <h3>Django Developer</h3>
-        <p>Another instance of placeholder content for this other custom component. It is intended to mimic what some real-world content would look like, and we're using it here to give the component a bit of body and size.</p>
-        <a href="#" class="stretched-link text-decoration-none text-dark">Go somewhere</a>
+        <!-- <nav class="navbar navbar-expand-lg bg-dark sticky-top bg-body-tertiary"> -->
+             
+    </header>
+    <!-- Home Page -->
+    <div class="container-fluid bg-dark">
+      <div class="row g-0 bg-dark position-relative d-flex align-items-center">
+        <div class="col-md-6 mb-md-0 p-4 border border-dark">
+          <img src="./assets/images/undraw_Online_test_re_kyfx.png" class="img-fluid rounded" alt="...">
+        </div>
+        <div class="col-md-6 p-4 p-sm-1 ps-md-3 text-center text-light">
+          <h5 class="mt-0" style="letter-spacing: 1.5px;">Hi, I'm <span class="myname fs-3">Paulson Charles</span></h5>
+          <h4 class="mytitle">Django Developer</h4>
+          <p >Passionate about building robust and scalable web applications.</p>
+          <a href="https://drive.google.com/file/d/1S1LYZBZ7HCAo8M20ZKqqYt3t6WX0-wE3/view?usp=sharing" target="_blank" download><button class="btn btn-info download-cv">Check my Resume</button></a>
+        </div>
       </div>
     </div>
-    <!-- <div class="container-fluid p-0">
-      <div class="rowk">
-        <div class="col-12 col-md-6">
-          <img src="./assets/images/undraw_Online_test_re_kyfx.png" class="img-fluid w-100 h-100" alt="" srcset="">
+    
+    <!-- 2nd Page -->
+    <div class="container-fluid bg-dark">
+      <div class="row p-3-md p-1-sm text-light d-flex">
+        <div class="col-12 col-md-6 order-2 order-sm-1 lh-lg justify-content-center">
+          <div class="row mt-3">
+            <h3>About me</h3>
+            <p>I am a Django Developer with six months of experience. While completing a Python full-stack web development course, I worked in a BPO role. Due to financial constraints, I delayed my career switch but resumed my search after 1 year and 6 months, eventually securing an internship at Senchola Technologies. I am now looking for full-time opportunities to apply and expand my skills.</p>
+          </div>
+          <div class="row">
+            <h3>My Career Journey</h3>
+              <div class="accordion mb-3" id="accordionExample">
+                <div class="accordion-item bg-dark border-dark">
+                  <h2 class="accordion-header bg-dark" >
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      <span>Senchola</span>
+                      <span class="ms-auto">July 24- present</span>
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body text-light ">
+                      <p>I have been working remotely as a Django Developer intern at Senchola Technologies for the past month. During this time, I have successfully completed all assigned tasks, demonstrating my ability to apply Django effectively in the projects. Recently, I delivered a presentation detailing the tasks I have undertaken and the progress I have made during the internship.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item bg-dark border-dark">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      <span>Career Break</span>
+                      <span class="ms-auto">Oct 23 - Jun 24</span>
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body text-light">
+                      <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item bg-dark border-dark">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      <span>Techolas</span>
+                      <span class="ms-auto">July 22 - Jan 23</span>
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body text-light">
+                      <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item bg-dark border-dark">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      <span>Gembrill</span>
+                      <span class="ms-auto">Jul 21 - Sep 23</span> 
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body text-light">
+                      <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>        
         </div>
-        <div class="col-12 col-md-6">
-          <h1>I'm <span>Paulson Charles</span></h1>
+        <div class="col-12 col-md-6 mb-3 order-1 order-sm-2">
+          <img src="./assets/images/portfolioImg.png" class="img-fluid rounded" alt="" srcset="">
         </div>
       </div>
-    </div> -->
-    <!-- Home -->
-    <!-- <div class="container">
-        <div class="row">
-            <div class="col-12 col-md-6 d-flex justify-content-center p-3">
-                <h1>Hi,I am Paulson<h1><br>
-                <p>Django Developer</p>
-            </div>
-            <div class="col-12 col-md-6 p-3">
-                <img src="./assets/images/undraw_code_thinking_re_gka2.svg" class="img-fluid" alt="" srcset="">
-            </div>
-        </div>
-    </div> -->
+    </div>
     <!-- JS plugins--> 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>

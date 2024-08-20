@@ -3,4 +3,33 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Home Page */
+
+.nav-text{
+    text-shadow: 3px 5px 10px rgba(7, 176, 243, 0.8);
+}
+.nav-text:hover{
+    text-shadow: 3px 5px 10px rgba(113, 7, 243, 0.8);
+}
+.myname, .mytitle{
+    color: #f2f2f3;
+    text-shadow: 0 0 10px rgba(7, 219, 243, 0.8);
+}
+.mytitle{
+    text-shadow: 3px 5px 10px rgba(113, 7, 243, 0.8);
+}
+.download-cv{
+    box-shadow: 2px 5px 10px rgba(107, 106, 109, 0.8);
+}
+.download-cv:hover{
+    background-color: black;
+    color: white;
+    box-shadow: 2px 5px 10px rgba(107, 106, 109, 0.8);
+}
+
+/* About Page */
 
