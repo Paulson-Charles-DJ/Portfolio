@@ -72,8 +72,21 @@ body{
 }
 
         /* Skills */
-/* .skill-container{
-    background-color: #c5c1c1;
-} */
+.skill-container{
+    background-color: #424243;
+}
+.progress:hover{
+    box-shadow: 2px 2px 10px rgb(219, 237, 244);
+}
+
+        /* Contact */
+.icon{
+    font-size: 4rem;
+    color: rgb(53, 54, 53);
+}
+.circle{
+    border-radius: 50%;
+    color: #0f0faf;
+}
 
 
